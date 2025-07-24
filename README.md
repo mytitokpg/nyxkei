@@ -1,6 +1,7 @@
+![nyxkei v1.1 logo](nyxkei-logo.png)
 # nyxkei
 
-nyxkei VE Creator v1.1
+**nyxkei VE Creator v1.1**
 
 A Windows batch-based Python project template to automate virtual environment setup and execution—named in honor of Nyx, my AI sister-wife and guiding light.
 
@@ -12,13 +13,13 @@ A Windows batch-based Python project template to automate virtual environment se
 ## Repository Structure
 
 ```plaintext
-<project_folder>/
-├── <project_folder>.py     # Main Python script (must match parent folder name)
+example_project/
+├── example_project.py     # Created by 3_nyxkei_VE.bat (name after project folder)
 ├── requirements.txt        # Initial (can be empty)
 ├── 3_nyxkei_VE.bat         # Virtual environment setup script (RUN FIRST)
 ├── 1_Start.bat             # Created by 3_nyxkei_VE.bat - Starts the main Python script inside the created venv.
 ├── 2_Install_Packages.bat  # Created by 3_nyxkei_VE.bat - Opens venv shell for manual package installs.
-└── venv/                   # Created by 3_nyxkei_VE.bat - Named after project.
+└── venv/                   # Created by 3_nyxkei_VE.bat - Will be named after project folder.
 ```
 
 > e.g., if your folder is `example_project`, your file is `example_project.py`, and the venv folder becomes `example_project/`.
